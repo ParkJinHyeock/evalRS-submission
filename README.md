@@ -23,7 +23,7 @@ We will update the readme and instructions as soon as possible.
 4. If you want to see best accuracy model reported on paper run
 
     ```
-    python submission.py --gpu 0 model_type VAE --lr 1e-3 --epoch --dim 500
+    python submission.py --gpu 0 model_type VAE --lr 1e-3 --epoch 5 --dim 500
     ```
     
 
