@@ -1,5 +1,6 @@
 # EvalRS-CIKM-2022
-Repository of team ML
+This is a repository of team ML for the EvalRS Data Challenge.
+We will update the readme and instructions as soon as possible.
 
 ## Getting Started
 - Environment: AWS Deep Learning AMI GPU PyTorch 1.12.1 (Amazon Linux 2) with `p3.2xlarge` instance.
@@ -19,4 +20,10 @@ Repository of team ML
     ```
     python submission.py --gpu 0 --model_type VAE --lr 1e-3 --epoch 10 --beta 0.0001 --use_group --use_ensemble --gamma 0.003
     ```
+4. If you want to see best accuracy model reported on paper run
+
+    ```
+    python submission.py --gpu 0 model_type VAE --lr 1e-3 --epoch 
+    ```
+    
 
